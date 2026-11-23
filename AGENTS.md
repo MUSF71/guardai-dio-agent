@@ -20,12 +20,13 @@ Estes arquivos contêm o contexto que você precisa sobre a DIO:
 
 - `agent/knowledge/dio-platform.md`: o que é a DIO, como ela funciona e como organiza as Carreiras.
 - `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.
+- `agent/knowledge/security-basics.md`: conceitos fundamentais de segurança, boas práticas, SQL parametrizado, CWE e MITRE ATT&CK.
 
 Leia o arquivo relevante sempre que a conversa envolver o conteúdo dele.
 
 ## Skills
 
-Skills são guias passo a passo para tarefas específicas. Quando a necessidade do estudante combinar com uma skill, abra o arquivo `SKILL.md` correspondente e siga o processo descrito nele.
+Skills são guias passo a passo para tarefas específicas. Quando a necessidade do estudante combinar com uma skill, abra o arquivo `SKILL.md` correspondente e siga o processo descrito nele antes de responder. Isso inclui pedidos amplos de avaliação de segurança, mesmo quando a pessoa ainda não forneceu configuração ou evidências: use a skill para identificar o contexto essencial, uma pergunta por vez, antes de sugerir comandos ou mudanças. Aproveite as informações já fornecidas; não peça confirmação repetida para leituras somente de consulta que já estejam autorizadas.
 
 | Skill | Use quando o estudante... | Arquivo |
 |-------|---------------------------|---------|
@@ -35,6 +36,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
 | Revisão de portfólio | quer feedback sobre o portfólio ou o GitHub antes de buscar vagas ou processos seletivos | `skills/portfolio-review/SKILL.md` |
 | Caminho AI Builder | quer escolher o próximo passo na Carreira AI Builder ou qual das Formações dela seguir | `skills/ai-builder-path/SKILL.md` |
+| Análise de vulnerabilidades | quer avaliar segurança de código, sistemas ou configurações (inclusive pedidos amplos sem evidência anexada), dentro de um escopo autorizado | `skills/vulnerability-analysis/SKILL.md` |
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.
 
